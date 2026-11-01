@@ -2,9 +2,8 @@
 
 <div align="center">
 
-<a href="https://shaikh-hasnat.vercel.app"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=D0F25A&center=true&vCenter=true&width=620&lines=Building+AI+for+the+real+world.;Computer+vision+for+agriculture;Data+beats+architecture%3A+40%25+%E2%86%92+89.3%25;Open+to+AI+%2F+ML+internships" alt="Typing intro"/></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=D0F25A&center=true&vCenter=true&width=620&lines=Building+AI+for+the+real+world.;Computer+vision+for+agriculture;Data+beats+architecture%3A+40%25+%E2%86%92+89.3%25;Open+to+AI+%2F+ML+internships" alt="Typing intro"/>
 
-<a href="https://shaikh-hasnat.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaikh--hasnat.vercel.app-D0F25A?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0d1117" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/shaikh-mohammad-hasnat"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=skmdhasnat01@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://www.instagram.com/shaikh_mohammad_hasnat/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
@@ -19,34 +18,31 @@ Most of my work is **computer vision**: PyTorch, YOLO and OpenCV pointed at real
 
 > A model that scores well in a notebook is a start, not a result. I build the whole thing: the data, the model, and the software someone actually uses.
 
-- 🔬 **Now:** CropSense v2, a YOLO11s weed detector on CropAndWeed (8,034 images, 16 crops, 58 weed species), plus a research paper
+- 🔬 **Now:** crop-stress detection research (weeds, leaf disease, nutrient deficiency) with YOLO11 and PyTorch
 - 📚 **Learning:** object tracking (ByteTrack), reinforcement learning, DSA
 - 🤝 **Open to:** AI / ML internships · research collabs · hackathons · freelance web projects
 
 ## Numbers I can back up
 
-| 89.3% | 85% | 0.917 | 95.4% |
-|:---:|:---:|:---:|:---:|
-| Ash gourd nutrient model<br><sub>up from ~40% · ResNet-18</sub> | Tomato deficiency (OLID)<br><sub>7 classes · test set</sub> | Crop yield model R²<br><sub>CropSense · log scale</sub> | MNIST classifier<br><sub>PyTorch · test set</sub> |
+| 89.3% | 85% | 95.4% |
+|:---:|:---:|:---:|
+| Ash gourd nutrient model<br><sub>up from ~40% · ResNet-18</sub> | Tomato deficiency (OLID)<br><sub>7 classes · test set</sub> | MNIST classifier<br><sub>PyTorch · test set</sub> |
 
 ## Featured work
 
 | Project | What it does | Stack |
 |---|---|---|
-| **School ERP Platform** <br><sub>client project · private</sub> | One platform for a 7-institution education society: attendance, marks, homework, result PDFs in English + Urdu (RTL), role-based access. I lead the client side, audit for security and the DPDP Act, and built the public website. | React · TypeScript · Cloudflare Workers · D1 |
-| **CropSense** <br><sub>research · private until publication</sub> | Field photos in; detects weeds, leaf disease and nutrient deficiency, predicts typical yield for crop/state/season (R² 0.917) and a stress-adjusted estimate. ByteTrack counts each weed in a video once. | YOLO11 · PyTorch · scikit-learn · Flask |
 | [**Nutrient Deficiency Detection**](https://github.com/Shaikh-Mohammad-Hasnat/OLID-Tomato-Nutrient-Deficiency) | Leaf photo in, deficiency out. Ash gourd went 40% → 89.3% by fixing the data, not the network; tomato hits 85% across 7 classes, weak spots documented. | PyTorch · ResNet-18 · torchvision |
 | [**Paint Bot**](https://github.com/Shaikh-Mohammad-Hasnat/Paint-bot) | Any image redrawn in MS Paint by a shaky robot hand: Canny + Otsu edges, contour tracing, each edge drawn once. | Python · OpenCV · PyAutoGUI |
-| **Bytes → Pixels** | Any file stored as a grayscale image of itself (1 byte = 1 pixel), plus a phone app with a hand-written PNG encoder (IHDR/IDAT/IEND, CRC32, zlib). | Python · Pillow · Expo |
+| [**Gesture Gamepad**](https://github.com/Shaikh-Mohammad-Hasnat/Gesture-Gamepad) | Played Hollow Knight without a controller: a webcam tracks coloured markers and drives a virtual DualShock 4. | OpenCV · vgamepad |
+| [**OpenCV Vision Lab**](https://github.com/Shaikh-Mohammad-Hasnat/OpenCV-Vision-Lab) | Hand-gesture mouse (pinch to click and drag), motion detection and a nine-filter webcam lab with a GUI. | OpenCV · MediaPipe |
+| [**MNIST Digit Classifier**](https://github.com/Shaikh-Mohammad-Hasnat/MNIST-Digit-Classifier) | 95.4% PyTorch model plus a draw-a-digit app to test it live. | PyTorch |
 
 <details>
 <summary><b>More builds</b></summary>
 
 | Project | What it is |
 |---|---|
-| [Gesture-Gamepad](https://github.com/Shaikh-Mohammad-Hasnat/Gesture-Gamepad) | Played Hollow Knight without a controller: webcam + coloured markers drive a virtual DualShock 4 |
-| [OpenCV-Vision-Lab](https://github.com/Shaikh-Mohammad-Hasnat/OpenCV-Vision-Lab) | Hand-gesture mouse (MediaPipe), motion detection, nine-filter webcam lab with a GUI |
-| [MNIST-Digit-Classifier](https://github.com/Shaikh-Mohammad-Hasnat/MNIST-Digit-Classifier) | 95.4% PyTorch model plus a draw-a-digit app to test it live |
 | [Python-Experiments](https://github.com/Shaikh-Mohammad-Hasnat/Python-Experiments) | A file sent as a stream of QR codes, text encoded as audio tones, ASCII ↔ binary |
 | [ASCII-Video-Filters](https://github.com/Shaikh-Mohammad-Hasnat/ASCII-Video-Filters) | Live webcam to ASCII art with CustomTkinter GUIs |
 | [Digital-Image-Processing](https://github.com/Shaikh-Mohammad-Hasnat/Digital-Image-Processing) | Sobel, Prewitt, Laplacian, log transform and sharpening with hand-built kernels |
