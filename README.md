@@ -1,35 +1,83 @@
-# 💫 About Me:
-Hi, I'm Hasnat 👋<br><br>🎓 IT Student  <br>💻 Programming: Python, C, C++, Java  <br>📊 Strong in DSA & OOP concepts  <br>🌐 Frontend: HTML, CSS, JavaScript  <br><br>🔭 Currently working on:<br>- Computer vision and deep learning in Python<br>- Geospatial analysis (QGIS, Google Earth Engine)<br>- DSA problem solving<br><br>📫 Reach me at: skmdhasnat01@gmail.com<br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,60:1a2410,100:D0F25A&height=190&section=header&text=Shaikh%20Mohammad%20Hasnat&fontSize=42&fontColor=ffffff&fontAlignY=36&desc=AI%20%2F%20ML%20Engineer%20%C2%B7%20Computer%20Vision&descSize=17&descAlignY=58&descAlign=50" width="100%" alt="Shaikh Mohammad Hasnat — AI / ML Engineer"/>
 
+<div align="center">
 
-## 🚀 Projects
+<a href="https://shaikh-hasnat.vercel.app"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=D0F25A&center=true&vCenter=true&width=620&lines=Building+AI+for+the+real+world.;Computer+vision+for+agriculture;Data+beats+architecture%3A+40%25+%E2%86%92+89.3%25;Open+to+AI+%2F+ML+internships" alt="Typing intro"/></a>
 
-| Project | What it is | Stack |
+<a href="https://shaikh-hasnat.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaikh--hasnat.vercel.app-D0F25A?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0d1117" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/shaikh-mohammad-hasnat"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=skmdhasnat01@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.instagram.com/shaikh_mohammad_hasnat/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="https://x.com/HasnatSk91234"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+
+</div>
+
+## About
+
+Third-year B.Tech IT student at **IICT, MGM University** (minor in Data Science), based in Aurangabad, India.
+Most of my work is **computer vision**: PyTorch, YOLO and OpenCV pointed at real problems, mostly in agriculture, where photos are blurry, classes are imbalanced and the light is never right.
+
+> A model that scores well in a notebook is a start, not a result. I build the whole thing: the data, the model, and the software someone actually uses.
+
+- 🔬 **Now:** CropSense v2, a YOLO11s weed detector on CropAndWeed (8,034 images, 16 crops, 58 weed species), plus a research paper
+- 📚 **Learning:** object tracking (ByteTrack), reinforcement learning, DSA
+- 🤝 **Open to:** AI / ML internships · research collabs · hackathons · freelance web projects
+
+## Numbers I can back up
+
+| 89.3% | 85% | 0.917 | 95.4% |
+|:---:|:---:|:---:|:---:|
+| Ash gourd nutrient model<br><sub>up from ~40% · ResNet-18</sub> | Tomato deficiency (OLID)<br><sub>7 classes · test set</sub> | Crop yield model R²<br><sub>CropSense · log scale</sub> | MNIST classifier<br><sub>PyTorch · test set</sub> |
+
+## Featured work
+
+| Project | What it does | Stack |
 |---|---|---|
-| [NaviMumbai-Climate-Stress-Atlas](https://github.com/Shaikh-Mohammad-Hasnat/NaviMumbai-Climate-Stress-Atlas) | Urban Climate Stress Index for Navi Mumbai's 111 wards from heat, green cover and flood susceptibility | QGIS, Python, Google Earth Engine |
-| [OLID-Tomato-Nutrient-Deficiency](https://github.com/Shaikh-Mohammad-Hasnat/OLID-Tomato-Nutrient-Deficiency) | Tomato leaf nutrient-deficiency classifier, ResNet-18 transfer learning (85% test accuracy, 7 classes) | PyTorch |
-| [Gesture-Gamepad](https://github.com/Shaikh-Mohammad-Hasnat/Gesture-Gamepad) | Play PC games with coloured markers: a webcam drives a virtual PS4 controller | OpenCV, vgamepad |
-| [OpenCV-Vision-Lab](https://github.com/Shaikh-Mohammad-Hasnat/OpenCV-Vision-Lab) | Webcam filter lab, hand-gesture mouse, motion detection | OpenCV, MediaPipe, CustomTkinter |
-| [MNIST-Digit-Classifier](https://github.com/Shaikh-Mohammad-Hasnat/MNIST-Digit-Classifier) | MNIST digit predictor: PyTorch model plus a draw-a-digit app (95.4% test accuracy) | PyTorch |
-| [ASCII-Video-Filters](https://github.com/Shaikh-Mohammad-Hasnat/ASCII-Video-Filters) | Live webcam to ASCII art with GUIs | OpenCV, CustomTkinter |
-| [Digital-Image-Processing](https://github.com/Shaikh-Mohammad-Hasnat/Digital-Image-Processing) | Sobel, Prewitt, Laplacian, log transform and sharpening from coursework | NumPy, OpenCV |
-| [Python-Games](https://github.com/Shaikh-Mohammad-Hasnat/Python-Games) | Hangman GUI and an OpenCV Flappy Bird | CustomTkinter, OpenCV |
-| [Python-Experiments](https://github.com/Shaikh-Mohammad-Hasnat/Python-Experiments) | Small experiments: QR data transfer, audio bit encoding | Python |
+| **School ERP Platform** <br><sub>client project · private</sub> | One platform for a 7-institution education society: attendance, marks, homework, result PDFs in English + Urdu (RTL), role-based access. I lead the client side, audit for security and the DPDP Act, and built the public website. | React · TypeScript · Cloudflare Workers · D1 |
+| **CropSense** <br><sub>research · private until publication</sub> | Field photos in; detects weeds, leaf disease and nutrient deficiency, predicts typical yield for crop/state/season (R² 0.917) and a stress-adjusted estimate. ByteTrack counts each weed in a video once. | YOLO11 · PyTorch · scikit-learn · Flask |
+| [**Nutrient Deficiency Detection**](https://github.com/Shaikh-Mohammad-Hasnat/OLID-Tomato-Nutrient-Deficiency) | Leaf photo in, deficiency out. Ash gourd went 40% → 89.3% by fixing the data, not the network; tomato hits 85% across 7 classes, weak spots documented. | PyTorch · ResNet-18 · torchvision |
+| [**Paint Bot**](https://github.com/Shaikh-Mohammad-Hasnat/Paint-bot) | Any image redrawn in MS Paint by a shaky robot hand: Canny + Otsu edges, contour tracing, each edge drawn once. | Python · OpenCV · PyAutoGUI |
+| **Bytes → Pixels** | Any file stored as a grayscale image of itself (1 byte = 1 pixel), plus a phone app with a hand-written PNG encoder (IHDR/IDAT/IEND, CRC32, zlib). | Python · Pillow · Expo |
 
-## 🌐 Socials:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/skmdhasnat01@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaikh-mohammad-hasnat-698a08335) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@HasnatSk91234) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:skmdhasnat01@gmail.com) 
+<details>
+<summary><b>More builds</b></summary>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Shaikh-Mohammad-Hasnat&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Shaikh-Mohammad-Hasnat&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shaikh-Mohammad-Hasnat&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+| Project | What it is |
+|---|---|
+| [Gesture-Gamepad](https://github.com/Shaikh-Mohammad-Hasnat/Gesture-Gamepad) | Played Hollow Knight without a controller: webcam + coloured markers drive a virtual DualShock 4 |
+| [OpenCV-Vision-Lab](https://github.com/Shaikh-Mohammad-Hasnat/OpenCV-Vision-Lab) | Hand-gesture mouse (MediaPipe), motion detection, nine-filter webcam lab with a GUI |
+| [MNIST-Digit-Classifier](https://github.com/Shaikh-Mohammad-Hasnat/MNIST-Digit-Classifier) | 95.4% PyTorch model plus a draw-a-digit app to test it live |
+| [Python-Experiments](https://github.com/Shaikh-Mohammad-Hasnat/Python-Experiments) | A file sent as a stream of QR codes, text encoded as audio tones, ASCII ↔ binary |
+| [ASCII-Video-Filters](https://github.com/Shaikh-Mohammad-Hasnat/ASCII-Video-Filters) | Live webcam to ASCII art with CustomTkinter GUIs |
+| [Digital-Image-Processing](https://github.com/Shaikh-Mohammad-Hasnat/Digital-Image-Processing) | Sobel, Prewitt, Laplacian, log transform and sharpening with hand-built kernels |
+| [Python-Games](https://github.com/Shaikh-Mohammad-Hasnat/Python-Games) | Flappy Bird from pixel operations alone (no engine) and a Hangman GUI |
+| [NaviMumbai-Climate-Stress-Atlas](https://github.com/Shaikh-Mohammad-Hasnat/NaviMumbai-Climate-Stress-Atlas) | GIS coursework: heat, green-cover and flood stress index for 111 wards |
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Shaikh-Mohammad-Hasnat&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+</details>
 
----
-[![](https://visitcount.itsvg.in/api?id=Shaikh-Mohammad-Hasnat&icon=0&color=0)](https://visitcount.itsvg.in)
+## Toolkit
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**AI · ML · Data**
+<br/><img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,anaconda&theme=dark" alt="AI and data tools"/>
+<br/>![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=mediapipe&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+
+**Web & software**
+<br/><img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,html,css,tailwind,vite,fastapi,flask&theme=dark" alt="Web tools"/>
+
+**Foundations & shipping**
+<br/><img src="https://skillicons.dev/icons?i=c,cpp,java,mysql,git,github,vercel,cloudflare&theme=dark" alt="Foundations and shipping tools"/>
+
+## GitHub activity
+
+<div align="center">
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shaikh-Mohammad-Hasnat&theme=github_dark" alt="Profile details and contributions"/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shaikh-Mohammad-Hasnat&theme=github_dark" alt="GitHub stats"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shaikh-Mohammad-Hasnat&theme=github_dark" alt="Most committed languages"/>
+
+<img src="https://streak-stats.demolab.com?user=Shaikh-Mohammad-Hasnat&hide_border=true&background=0d1117&ring=D0F25A&fire=D0F25A&currStreakLabel=D0F25A&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="Contribution streak"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D0F25A,40:1a2410,100:0d1117&height=110&section=footer" width="100%" alt=""/>
