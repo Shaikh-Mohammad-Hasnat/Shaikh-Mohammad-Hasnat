@@ -14,7 +14,7 @@
 ## About
 
 Third-year B.Tech IT student at **IICT, MGM University** (minor in Data Science), based in Aurangabad, India.
-Most of my work is **computer vision**: PyTorch, YOLO and OpenCV pointed at real problems, mostly in agriculture, where photos are blurry, classes are imbalanced and the light is never right.
+Most of my work is **computer vision**: PyTorch, YOLO and OpenCV pointed at real problems.
 
 > A model that scores well in a notebook is a start, not a result. I build the whole thing: the data, the model, and the software someone actually uses.
 
